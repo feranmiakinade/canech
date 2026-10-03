@@ -23,4 +23,17 @@ class ContactController extends Controller
 
         return back()->with('success', 'Thanks! Your enquiry has been received.');
     }
+
+    public function destroy($id)
+    {
+        $submission = ContactSubmission::find($id);
+
+        if ($submission) {
+            $submission->delete();
+        }
+
+        return redirect()
+    ->route('admin.index')
+    ->with('success', 'Enquiry deleted successfully.');
+    }
 }
