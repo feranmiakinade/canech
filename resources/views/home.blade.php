@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-    <title>CANECH — Digital Experiences</title>
+        <title>CANECH — Digital Experiences</title>
+
     <meta name="description" content="CANECH designs and builds websites, brands and digital products.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="CANECH — Digital Experiences">
+    <meta property="og:description" content="CANECH designs and builds websites, brands and digital products.">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:image" content="{{ asset('images/work/canech-core-black.jpg') }}">
+    <meta property="og:image:alt" content="CANECH — Digital Experiences">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CANECH — Digital Experiences">
+    <meta name="twitter:description" content="CANECH designs and builds websites, brands and digital products.">
+    <meta name="twitter:image" content="{{ asset('images/work/canech-core-black.jpg') }}">
  
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
