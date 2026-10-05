@@ -22,3 +22,5 @@ Route::get('/admin', [AdminController::class, 'index'])
 
 Route::post('/admin/logout', [AdminController::class, 'logout'])
     ->name('admin.logout');
+Route::delete('/admin/submissions/{submission}', [ContactController::class, 'destroy'])
+    ->name('admin.submissions.destroy');

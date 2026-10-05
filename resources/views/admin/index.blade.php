@@ -241,6 +241,27 @@
             transition: border-color .15s ease, background .15s ease;
         }
         .btn-view:hover { border-color: var(--text); background: var(--accent); }
+
+        .btn-delete {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 7px 13px;
+            font-size: 12.5px;
+            font-weight: 600;
+            color: #b3261e;
+            background: none;
+            border: 1px solid #d9aaa7;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: border-color .15s ease, background .15s ease, color .15s ease;
+        }
+
+        .btn-delete:hover {
+            border-color: #b3261e;
+            background: #b3261e;
+            color: #fff;
+        }
  
         .empty {
             padding: 70px 20px;
@@ -443,10 +464,27 @@
                                 </td>
  
                                 <td>
-                                    <button type="button" class="btn-view" data-toggle-msg="msg-{{ $submission->id }}">
-                                        View message
-                                    </button>
-                                </td>
+    <div style="display: flex; gap: 8px; align-items: center;">
+
+        <button type="button"
+                class="btn-view"
+                data-toggle-msg="msg-{{ $submission->id }}">
+            View message
+        </button>
+
+        <form method="POST"
+              action="{{ route('admin.submissions.destroy', $submission->id) }}"
+              onsubmit="return confirm('Are you sure you want to delete this enquiry? This cannot be undone.');">
+            @csrf
+            @method('DELETE')
+
+            <button type="submit" class="btn-delete">
+                Delete
+            </button>
+        </form>
+
+    </div>
+</td>
  
                             </tr>
  
