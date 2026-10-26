@@ -1211,13 +1211,13 @@
                         <img src="/images/work/the-moving-company.png" alt="The Moving Company website preview">
                     </a>
  
-                    <a href="https://eatwithummi.onrender.com" target="_blank" rel="noopener noreferrer"
-                       class="hv-frame hv-second card" aria-label="View EatWithUmmi">
+                    <a href="https://perfexamedia.com/" target="_blank" rel="noopener noreferrer"
+                       class="hv-frame hv-second card" aria-label="View Perfexa Media">
                         <div class="browser-bar" aria-hidden="true">
                             <i></i><i></i><i></i>
-                            <span>eatwithummi.onrender.com</span>
+                            <span>perfexamedia.com</span>
                         </div>
-                        <img src="/images/work/eatwithummi.png" alt="EatWithUmmi website preview">
+                        <img src="/images\work\perfexascreenshot.png" alt="Perfexa Media website preview">
                     </a>
                 </div>
  
@@ -1230,7 +1230,7 @@
                 </div>
                 <div class="meta-cell">
                     <span class="meta-label">Selected work</span>
-                    <span class="meta-value">EatWithUmmi, The Moving Company</span>
+                    <span class="meta-value">Perfexa Media, The Moving Company</span>
                 </div>
                 <div class="meta-cell">
                     <span class="meta-label">Contact</span>
@@ -1304,36 +1304,35 @@
                 </a>
  
  
-                <!-- EatWithUmmi -->
-                <a href="https://eatwithummi.onrender.com" target="_blank" rel="noopener noreferrer" class="work-card card reveal is-food" style="--i:0" aria-label="View EatWithUmmi project">
+                <!-- Perfexa Media -->
+                <a href="https://perfexamedia.com/" target="_blank" rel="noopener noreferrer" class="work-card card reveal is-perfexa" style="--i:0" aria-label="View Perfexa Media project">
  
                     <div class="work-media">
                         <div class="browser-bar" aria-hidden="true">
                             <i></i><i></i><i></i>
-                            <span>eatwithummi.onrender.com</span>
+                            <span>perfexamedia.com</span>
                         </div>
                         <div class="work-shot">
-                            <img src="/images/work/eatwithummi.png" alt="EatWithUmmi website" loading="lazy">
-                            <span class="project-type">FOOD / WEB</span>
+                            <img src="/images\work\perfexascreenshot.png" alt="Perfexa Media website" loading="lazy">
+                            <span class="project-type">PRINT / DESIGN / BRANDING</span>
                         </div>
                     </div>
  
                     <div class="work-info">
                         <div class="work-top">
-                            <span>Food &amp; Hospitality</span>
+                            <span>Print &amp; Branding Solutions</span>
                         </div>
  
-                        <h3>EatWithUmmi</h3>
+                        <h3>Perfexa Media Limited</h3>
  
                         <p>
-                            A responsive food business website designed to showcase the menu,
-                            simplify ordering and give the brand a stronger digital presence.
+                            A professional business website presenting Perfexa Media’s print, design and branding solutions, helping customers explore its services and connect with the company.
                         </p>
  
                         <div class="tags">
                             <span>Web Design</span>
                             <span>Laravel</span>
-                            <span>Development</span>
+                            <span>Business Website</span>
                         </div>
  
                         <span class="work-link">
